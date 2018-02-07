@@ -4,7 +4,7 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import wangfeixixi.utilweb.BaseWebViewActivity;
+import wangfei.utilweb.BaseWebViewActivity;
 
 public class MainActivity extends BaseWebViewActivity {
 

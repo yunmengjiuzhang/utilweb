@@ -1,4 +1,4 @@
-package wangfeixixi.utilweb;
+package wangfei.utilweb;
 
 
 import android.annotation.SuppressLint;
@@ -19,7 +19,7 @@ import wangfei.swipeback.SwipeBackActivity;
 public abstract class BaseWebViewActivity extends SwipeBackActivity {
 
     public WebView webView;
-    private String url = "https://github.com/wangfeixixi";
+    private String url = "https://v.qq.com/";
 
     @SuppressLint("JavascriptInterface")
     @Override
@@ -76,6 +76,8 @@ public abstract class BaseWebViewActivity extends SwipeBackActivity {
     protected void setWebvieweSettings(WebView wv) {
         //获取当前webview得setting
         WebSettings settings = wv.getSettings();
+        settings.setAllowFileAccessFromFileURLs(false);
+        settings.setAllowUniversalAccessFromFileURLs(false);
         settings.setBuiltInZoomControls(false);//是否能够开启webview得自带得缩放功能
         settings.setDefaultFontSize(16);//设置默认字体大小
         settings.setJavaScriptEnabled(true);//js和native互调
