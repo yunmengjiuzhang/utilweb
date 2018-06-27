@@ -9,8 +9,8 @@ import wangfei.utilweb.BaseWebViewActivity;
 public class MainActivity extends BaseWebViewActivity {
 
     @Override
-    protected void initView() {
-        setContentView(R.layout.activity_main);
+    protected int initViewIds() {
+        return R.layout.activity_main;
     }
 
     @Override

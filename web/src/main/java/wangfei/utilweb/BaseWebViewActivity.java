@@ -19,16 +19,15 @@ import wangfei.swipeback.SwipeBackActivity;
 public abstract class BaseWebViewActivity extends SwipeBackActivity {
 
     public WebView webView;
-    private String url = "https://v.qq.com/";
+    private String url = "https://github.com/wangfeixixi";
 
     @SuppressLint("JavascriptInterface")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        initView();
+        setContentView(initViewIds());
         initData();
     }
-
     @SuppressLint("JavascriptInterface")
     protected void initData() {
         webView = getWebView();
@@ -91,7 +90,7 @@ public abstract class BaseWebViewActivity extends SwipeBackActivity {
     /**
      * setcontentview或者bind view
      */
-    protected abstract void initView();
+    protected abstract int initViewIds();
 
     /**
      * 获取WebView控件

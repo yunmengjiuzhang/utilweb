@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/utilweb.iml" filepath="$PROJECT_DIR$/utilweb.iml" />
+      <module fileurl="file://D:\workSpace\test\utilweb\app\app.iml" filepath="D:\workSpace\test\utilweb\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/utilweb.iml" filepath="$PROJECT_DIR$/.idea/utilweb.iml" />
+      <module fileurl="file://D:\workSpace\test\utilweb\utilweb.iml" filepath="D:\workSpace\test\utilweb\utilweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
+      <module fileurl="file://D:\workSpace\test\utilweb\web\web.iml" filepath="D:\workSpace\test\utilweb\web\web.iml" />
     </modules>
   </component>
 </project>
